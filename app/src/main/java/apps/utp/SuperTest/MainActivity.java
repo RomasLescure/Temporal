@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.temporal.R;
+import apps.utp.SuperTest.R;
 
 public class MainActivity extends AppCompatActivity {
 

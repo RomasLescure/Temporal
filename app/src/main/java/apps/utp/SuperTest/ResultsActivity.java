@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.temporal.R;
+import apps.utp.SuperTest.R;
 
 import java.util.List;
 

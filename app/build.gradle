@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.temporal'
+    namespace 'apps.utp.SuperTest'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.temporal"
+        applicationId "apps.utp.SuperTest"
         minSdk 28
         targetSdk 33
         versionCode 1
