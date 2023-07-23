@@ -13,7 +13,7 @@
         android:background="#DDCFF0"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:context=".ResultsActivity"
+        tools:context="apps.utp.SuperTest.ResultsActivity"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="-16dp">
 

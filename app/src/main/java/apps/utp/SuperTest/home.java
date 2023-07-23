@@ -1,10 +1,12 @@
-package com.example.temporal;
+package apps.utp.SuperTest;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.temporal.R;
 
 public class home extends AppCompatActivity {
     Button Boton;

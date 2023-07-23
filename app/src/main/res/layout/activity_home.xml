@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DDCFF0"
-    tools:context=".home">
+    tools:context="apps.utp.SuperTest.home">
 
 
     <TextView

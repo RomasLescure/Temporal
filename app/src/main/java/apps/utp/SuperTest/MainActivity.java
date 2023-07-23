@@ -1,7 +1,6 @@
-package com.example.temporal;
+package apps.utp.SuperTest;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import android.content.Intent;
@@ -13,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.content.Intent;
+import com.example.temporal.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         questionList.add(new Question("Pregunta #2\n¿Si la salida de mi cálculo es 2, cuáles son las posibles entradas para que la suma de esas entradas coincida con la salida?", new String[]{"1 y 100", "1 y 10", "1 y 1", "2 y 2"}, 2));
         questionList.add(new Question("Pregunta #3\n¿Para saber si el estudiante de la UTP está matriculado, qué documento se podría ingresar como entrada de comprobación?", new String[]{"Constancia de matrícula", "Ingreso mensual", "Pasaporte", "Horario de grupo"}, 0));
         questionList.add(new Question("Pregunta #4\n¿Si se desea ingresar al sistema de matrícula de la UTP, cuál sería la entrada para poder acceder al sistema?", new String[]{"Token", "Cédula y contraseña", "Correo electrónico y contraseña", "Nombre y contraseña"}, 1));
-        questionList.add(new Question("Pregunta #5\nSi tengo un algoritmo que lee dos cantidades y las suma, y ingreso 1 y 2, ¿cuál sería la salida?", new String[]{"1", "2", "3", "4"}, 2));
+        questionList.add(new Question("Pregunta #5\n¿Cuál es el area de un romboide si mi diagonal mayor es de 16 y mi diagonal menor es de 12?", new String[]{"38", "45", "96", "114"}, 2));
         // Agrega más preguntas según sea necesario
 
         questionAdapter = new QuestionAdapter(this, questionList);
